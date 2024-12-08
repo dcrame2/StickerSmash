@@ -21,7 +21,7 @@ import { captureRef } from 'react-native-view-shot';
 const PlaceholderImage = require('@/assets/images/background-image.png');
 
 export default function Index() {
-  const imageRef = useRef<View>(null);
+  const imageRef = useRef<any>(null);
   const [selectedImage, setSelectedImage] = useState<string | undefined>(
     undefined
   );
